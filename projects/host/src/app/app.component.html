@@ -1,0 +1,15 @@
+<h1>ANGULAR LAZY LOADING EXAMPLE BY SAHIL</h1>
+<a routerLink="/mfe1">REMOTE 1</a> &nbsp;
+<a routerLink="/mfe2">REMOTE 2</a>
+<h2>Admin links</h2>
+<ul>
+  <li><a routerLink="admin/list">Admin List</a></li>
+
+  <li><a [routerLink]="['/routePath']" routerLinkActive="router-link-active">None</a></li>
+</ul>
+<h2>User links</h2>
+<ul>
+  <li><a routerLink="user/list">User List</a></li>
+  <li><a routerLink="user/login">Login</a></li>
+</ul>
+<router-outlet></router-outlet>
